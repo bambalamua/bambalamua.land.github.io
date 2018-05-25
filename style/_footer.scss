@@ -1,0 +1,17 @@
+.footer{
+	width: 100%;
+	background: #709DCA;
+	text-align: center;
+	p{
+		font-size: 13px;
+		line-height: 40px;
+	}
+}
+
+@media (max-width: 768px) {
+	.footer{
+	p{
+		line-height: 22px;
+	}	
+}
+}

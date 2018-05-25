@@ -1,0 +1,39 @@
+.service__sec{
+	width: 100%;
+	height: auto;
+	padding: 0 0 100px 0;
+	.row{
+		margin: 10px 0;
+	}
+}
+	.service__sec-title{
+		text-align: center;
+		h1{
+			color: #394B50;
+			font-size: 26px;
+		}
+		p{
+			color: #394B50;;
+			font-size: 16px;
+		}
+	}
+	.service__sec-content-block{
+		h6{
+			color: #394B50;
+			font-size: 16px;
+		}
+		p{
+			color: #7B7B7B;
+			font-size: 13px;
+		}
+		.col-6{
+			padding: 10px;
+		}
+	}
+@media (max-width: 768px) {
+	.service__sec-content-block{
+		.col-6{
+			width: 100%;
+		}
+	}
+}
